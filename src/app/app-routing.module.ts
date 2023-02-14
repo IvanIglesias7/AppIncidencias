@@ -7,8 +7,13 @@ const routes: Routes = [
     path: '', component: AppComponent
   },
   {
-    path: 'incidencias', loadChildren: () => import('./modules/incidencias/incidencias.module').then
-    (i=>i.IncidenciasModule)
+    path: 'gestion', loadChildren: () => import('./modules/gestion-incidencias/gestion-incidencias.module').then(g=>g.GestionIncidenciasModule)
+  },
+  {
+    path: 'introduccion', loadChildren: () => import('./modules/introduccion-incidencias/introduccion-incidencias.module').then(i=>i.IntroduccionIncidenciasModule)
+  },
+  {
+    path: 'revision', loadChildren:() => import('./modules/revision-incidencias/revision-incidencias.module').then(r=>r.RevisionIncidenciasModule)
   },
   {
     path: '**', redirectTo: '/', pathMatch: 'full'

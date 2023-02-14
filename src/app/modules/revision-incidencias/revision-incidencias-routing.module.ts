@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IncidenciasComponenteComponent } from './incidencias-componente/incidencias-componente.component';
+import { RevisionComponent } from './revision/revision.component';
 
 const routes: Routes = [
   {
-    path: '', component: IncidenciasComponenteComponent
+    path: '', component: RevisionComponent
   },
   {
     path: '**', redirectTo: '/', pathMatch: 'full'
@@ -15,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class IncidenciasRoutingModule { }
+export class RevisionIncidenciasRoutingModule { }

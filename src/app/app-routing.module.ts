@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { MenuComponent } from './shared/menu/menu.component';
 
 const routes: Routes = [
   {
-    path: '', component: AppComponent
+    path: '', component: MenuComponent
   },
   {
     path: 'gestion', loadChildren: () => import('./modules/gestion-incidencias/gestion-incidencias.module').then(g=>g.GestionIncidenciasModule)

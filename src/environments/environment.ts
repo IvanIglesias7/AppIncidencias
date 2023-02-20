@@ -1,10 +1,9 @@
 export const environment = {
   firebase: {
-    projectId: 'angular-clase-firebase',
-    appId: '1:844055797447:web:a730645015759febec28e2',
-    databaseURL: 'https://angular-clase-firebase-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'angular-clase-firebase.appspot.com',
-    apiKey: 'AIzaSyAa1WfqgATZ3jd9hK8Iu2LIIUWZDd1GAAg',
-    authDomain: 'angular-clase-firebase.firebaseapp.com',
-    messagingSenderId: '844055797447',
+    projectId: 'proyectoincidencias-f2649',
+    appId: '1:685693857299:web:82a6efb1cffdd806d1d9e6',
+    storageBucket: 'proyectoincidencias-f2649.appspot.com',
+    apiKey: 'AIzaSyBiysSPSE90K2WRh0TYkCAXU-4T_AEtsj8',
+    authDomain: 'proyectoincidencias-f2649.firebaseapp.com',
+    messagingSenderId: '685693857299',
   },};
